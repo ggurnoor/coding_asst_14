@@ -68,3 +68,42 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+# 🧑‍💻 Gurnoor – Full Stack Web Developer Portfolio (Assignment 14)
+
+This is my personal portfolio website built using **React** to showcase the work, skills, and projects I’ve done during my Full Stack Web Development diploma.
+
+It includes:
+
+- React (Create React App)
+- Dockerized deployment on port `5575`
+- Pre-commit checks with Husky
+- Code formatting with Prettier
+- Linting with ESLint
+- GitHub Actions for CI/CD
+
+---
+
+## 🧪 Local Development (Before Docker)
+
+### Clone or open your project, then run:
+
+```bash
+npm install
+npm start
+
+Install ESLint and Prettier:
+
+npm install --save-dev eslint prettier eslint-config-prettier eslint-plugin-react eslint-plugin-react-hooks eslint-plugin-jsx-a11y
+npx eslint --init
+
+To format  code manually:
+npx prettier --write .
+
+To dockerise:
+docker build -t gurnoor_coding_assignment14 .
+docker run -d -p 5575:80 --name gurnoor_coding_assignment14 gurnoor_coding_assignment14
+
+
+tester
+```

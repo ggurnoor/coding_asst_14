@@ -1,0 +1,21 @@
+/* src/sections/Home.css */
+.home-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 20px;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.home-content {
+  max-width: 700px;
+}
+
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
+}

@@ -1,0 +1,25 @@
+.skills-section {
+  padding: 60px 20px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.skills-category {
+  margin-bottom: 30px;
+}
+
+.skill-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.skill-badge {
+  background-color: #e0e0e0;
+  padding: 8px 14px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  color: #333;
+}
